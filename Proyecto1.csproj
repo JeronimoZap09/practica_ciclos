@@ -68,6 +68,8 @@
     <Content Include="Actividad.aspx" />
     <Content Include="punto1.aspx" />
     <Content Include="punto2.aspx" />
+    <Content Include="punto3.aspx" />
+    <Content Include="punto4.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -92,6 +94,20 @@
     </Compile>
     <Compile Include="punto2.aspx.designer.cs">
       <DependentUpon>punto2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="punto3.aspx.cs">
+      <DependentUpon>punto3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="punto3.aspx.designer.cs">
+      <DependentUpon>punto3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="punto4.aspx.cs">
+      <DependentUpon>punto4.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="punto4.aspx.designer.cs">
+      <DependentUpon>punto4.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
