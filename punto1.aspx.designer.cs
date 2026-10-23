@@ -11,7 +11,7 @@ namespace Proyecto1
 {
 
 
-    public partial class FormularioUno
+    public partial class punto1
     {
 
         /// <summary>
@@ -24,102 +24,93 @@ namespace Proyecto1
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// Control txtPrecioKilo.
+        /// Control lblpersonas.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtPrecioKilo;
+        protected global::System.Web.UI.WebControls.Label lblpersonas;
 
         /// <summary>
-        /// Control txtKilosClientes.
+        /// Control txtpersonas.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtKilosClientes;
+        protected global::System.Web.UI.WebControls.TextBox txtpersonas;
 
         /// <summary>
-        /// Control btnEjercicio2.
+        /// Control lblayudapersonas.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnEjercicio2;
+        protected global::System.Web.UI.WebControls.Label lblayudapersonas;
 
         /// <summary>
-        /// Control lblResultado2.
+        /// Control lblgenero.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblResultado2;
+        protected global::System.Web.UI.WebControls.Label lblgenero;
 
         /// <summary>
-        /// Control txtPuntosCarros.
+        /// Control txtgenero.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtPuntosCarros;
+        protected global::System.Web.UI.WebControls.TextBox txtgenero;
 
         /// <summary>
-        /// Control btnEjercicio3.
+        /// Control lblayuda.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnEjercicio3;
+        protected global::System.Web.UI.WebControls.Label lblayuda;
 
         /// <summary>
-        /// Control lblResultado3.
+        /// Control btncontar.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblResultado3;
+        protected global::System.Web.UI.WebControls.Button btncontar;
 
         /// <summary>
-        /// Control txtTiemposAtleta.
+        /// Control btnlimpiar.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtTiemposAtleta;
+        protected global::System.Web.UI.WebControls.Button btnlimpiar;
 
         /// <summary>
-        /// Control btnEjercicio4.
+        /// Control lblconteo.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnEjercicio4;
+        protected global::System.Web.UI.WebControls.Label lblconteo;
 
         /// <summary>
-        /// Control lblResultado4.
+        /// Control lblconteor.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblResultado4;
-
-        /// <summary>
-        /// Control ddlAnimal.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList ddlAnimal;
+        protected global::System.Web.UI.WebControls.Label lblconteor;
     }
 }
